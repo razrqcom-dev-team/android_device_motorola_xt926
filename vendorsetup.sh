@@ -1,3 +1,3 @@
 add_lunch_combo full_xt926-userdebug
-add_lunch_combo aokp_xt926-userdebug
+add_lunch_combo xenonhd_xt926-userdebug
 
