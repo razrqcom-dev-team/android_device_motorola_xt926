@@ -1,5 +1,5 @@
 $(call inherit-product, device/motorola/xt926/device_xt926.mk)
-PRODUCT_COPY_FILES += device/sample.etc/apns/conf_verizon.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += device/sample/etc/apns/conf_verizon.xml:system/etc/apns-conf.xml
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
