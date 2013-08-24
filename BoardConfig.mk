@@ -42,3 +42,9 @@ DEVICE_RESOLUTION := 720x1280
 
 # userdata size is double for maxx
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12884901888
+
+# Kernel Build
+TARGET_KERNEL_VARIANT_CONFIG := msm8960_mmi_xt926_defconfig
+
+# Special kernel packaging w/ dtb
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/boot.mk
